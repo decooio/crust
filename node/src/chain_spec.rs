@@ -144,6 +144,11 @@ pub fn local_testnet_config() -> Result<CrustChainSpec, String> {
     ))
 }
 
+/// Crust decoo(aka. internal testnet) config
+pub fn decoo_config() -> Result<CrustChainSpec, String> {
+    CrustChainSpec::from_json_bytes(&include_bytes!("../res/decoo.json")[..])
+}
+
 /// Crust rocky(aka. internal testnet) config
 pub fn rocky_config() -> Result<CrustChainSpec, String> {
     CrustChainSpec::from_json_bytes(&include_bytes!("../res/rocky.json")[..])
