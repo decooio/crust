@@ -3,7 +3,7 @@
   "id": "decoo_rocky",
   "chainType": "Live",
   "bootNodes": [
-    "/ip4/1.117.226.71/tcp/30333/p2p/12D3KooWAZ7m3pjs6mBF3FtRjVW57WjRj973pHukP8P1RN58wJgk"
+    "/ip4/1.117.226.71/tcp/30333/p2p/12D3KooW9rhZsyVUcHGUMyzMyu1SZuPz2y99Da8mXBqUjp2CdkQj"
   ],
   "telemetryEndpoints": null,
   "protocolId": "decoo",
